@@ -1,0 +1,16 @@
+LocalStorage : 
+
+1-Create Signup Form Store Name Email Password in Local Storage.
+
+2-Create Login Page in Submit button Check Same Email and Password is present in Local Storage then redirect on Homepage.
+
+3-Create Home Page Display Hi,Username from Local Storage.
+
+4-Change Password.
+Create Change Password Old Password New Password and Confirm Password. 
+Check Old Password with LocalStorage and If it is ok then Update Password in Local Storage.
+
+5-forgot Password 
+Take Email from User and Check Email is present in LocalStorage and if yes then show password on screen.
+
+6-Remove Button on homepage remove all data.

@@ -1,0 +1,82 @@
+form{
+    text-align: left;
+    /* border: 1px solid !important; */
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(195, 243, 243);
+    color: #1A73E8;
+    padding: 20px;
+    display: grid;
+    border-radius: 10px;
+}
+
+.main_div button{
+    margin-top: 10px;
+    background-color: #1A73E8;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.main_div button:hover{
+    color:black;
+    background-color: rgb(164, 167, 245);
+}
+
+.main_div input{
+    width: 100%;
+    border: none;
+    line-height: 30px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.main_div h1{
+    text-align: center;
+}
+
+.main_div input:hover{
+    background-color: #c0d8f8;
+}
+
+.Appone button{
+    margin-top: 10px;
+    background-color: #1A73E8;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.Appone button:hover{
+    color:black;
+    background-color: rgb(164, 167, 245);
+}
+
+.Appone{
+    display:flex;
+    justify-content: center;
+}
+
+.main_div .email{
+    /* width: 300px; */
+    /* margin-top: 20px; */
+}
+
+.ForPass{
+    text-align: left;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(195, 243, 243);
+    color: #1A73E8;
+    padding: 20px;
+    display: grid;
+    border-radius: 10px;
+}
