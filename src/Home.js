@@ -21,10 +21,12 @@ function Home(props) {
     return (
         <React.Fragment>
             <div className='App main_div'>
-                <h1>Home</h1>
-                <h3>Hi, {name} 😇</h3>
-                <button onClick={() => navigate('/ChangePassword')}>Change Password</button>&nbsp;
-                <button type='submit' onClick={removeData}>Remove All Data</button>
+                <form>
+                    <h1>Home</h1>
+                    <h3>Hi, {name} 😇</h3>
+                    <button onClick={() => navigate('/ChangePassword')}>Change Password</button>&nbsp;
+                    <button type='submit' onClick={removeData}>Remove All Data</button>
+                </form>
             </div>
         </React.Fragment>
     );
