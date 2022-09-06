@@ -21,6 +21,7 @@ function ForgotPassword(props) {
     return (
         <React.Fragment>
             <div className='App main_div ForPass'>
+            <h1>Forgot Password</h1>
                 Email<input className='email' type='email' onChange={e => setEmail(e.target.value)} /><br />
                 <button onClick={handleSubmit}>Submit</button>
                 <h1>Your Password is {password}</h1>
